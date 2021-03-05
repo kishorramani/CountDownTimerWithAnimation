@@ -13,11 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package com.example.androiddevchallenge.utils
 
-import androidx.compose.ui.graphics.Color
-
-val orange200 = Color(0xFFFFCC80)
-val orange500 = Color(0xFFFF9800)
-val orange700 = Color(0xFFF57C00)
-val green200 = Color(0xC5E1A5)
+data class TimeUtil(
+    val label: String,
+    val amount: Long
+)
